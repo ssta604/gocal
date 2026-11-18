@@ -2,6 +2,18 @@
 
 A colorful take on the classic Unix `cal` command, written in Go with no dependencies.
 
+<p align="center">
+  <img src="docs/three-months.svg" alt="gocal -3 showing October, November and December 2026 side by side, with today highlighted" width="600">
+</p>
+
+## Screenshots
+
+| Current month (`gocal`) | Whole year (`gocal -y`) |
+|:---:|:---:|
+| <img src="docs/month.svg" alt="gocal showing November 2026" width="260"> | <img src="docs/year.svg" alt="gocal -y showing all twelve months of 2026" width="440"> |
+
+Each month title gets its own rainbow color. Sundays are red and Saturdays magenta, holidays are underlined in green, and today is shown on a yellow background.
+
 ## Features
 
 - A rainbow color for each month title
