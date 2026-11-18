@@ -1,0 +1,8 @@
+# Build output
+/gocal
+*.exe
+dist/
+
+# Test artifacts
+*.test
+*.out
